@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+main{
+    width: 30%;
+    height: 60%;
+    margin: 100px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    border: double rgb(38, 204, 213) 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    gap: 5px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+label{
+    color: white;
+    font-size: 20px;
+}
+
+input{
+    height: 30px;
+    width: 400px;
+}
+
+span{
+    color: white;
+    font-size: 20px;
+}
+
+fieldset {
+    margin-top: 10px;
+    border: none;
+}
+
+fieldset input {
+    height: 20px;
+    width: 20px;
+}
+
+.linguagem{
+    margin-top: 10px;
+}
+
+.cor--favorita{
+    margin-top: 10px;
+}
+
+
+.buttons{
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.limpar{
+    width: 150px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    border: solid 1px white;
+    cursor: pointer;
+}
+
+.enviar{
+    width: 150px;
+    height: 35px;
+    background-color: rgb(44, 238, 44);
+    border: solid 1px white;
+    cursor: pointer;
+    color: white;
+}
+
+.limpar:hover{
+    background-color: rgb(135, 41, 31);
+}
+
+.enviar:hover{
+    background-color: rgb(21, 62, 21);
+}
